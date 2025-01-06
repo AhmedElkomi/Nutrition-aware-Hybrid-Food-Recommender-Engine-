@@ -32,11 +32,20 @@ Hybrid Recommendations: [500481, 6536, 444942, 314004, 469399, 9116, 336285, 373
 
 ### Model Evaluation
 The collaborative filtering model (SVD) is evaluated using 3-fold cross-validation. Here are the results:
-                  Fold 1  Fold 2  Fold 3  Mean    Std     
-RMSE (testset)    1.2280  1.2278  1.2299  1.2286  0.0010  
-Fit time          19.65   20.12   20.20   19.99   0.24    
-Test time         4.54    3.21    3.92    3.89    0.55    
-Cross-Validation RMSE: 1.2285657780442316
+
+The table below summarizes the model's performance across three folds during cross-validation, including the Root Mean Square Error (RMSE), fit time, and test time.
+
+| Metric         | Fold 1  | Fold 2  | Fold 3  | Mean   | Std Dev |
+|----------------|---------|---------|---------|--------|---------|
+| RMSE (test set)| 1.2280  | 1.2278  | 1.2299  | 1.2286 | 0.0010  |
+| Fit time (s)   | 19.65   | 20.12   | 20.20   | 19.99  | 0.24    |
+| Test time (s)  | 4.54    | 3.21    | 3.92    | 3.89   | 0.55    |
+
+- **Cross-Validation RMSE**: **1.2286**  
+  This value represents the mean RMSE across all folds, showcasing the model's predictive accuracy.
+- **Fit time**: Time taken to train the model per fold, averaged and presented with standard deviation.
+- **Test time**: Time taken to evaluate the model on the test set, averaged and presented with standard deviation.
+
 
 ---
 
@@ -78,10 +87,7 @@ The SVD model achieves an RMSE of 1.2286, indicating good predictive accuracy.
 
 The hybrid recommendations are diverse and nutritionally balanced, as shown in the example outputs.
 
-Top Hybrid Recommendation:
-### Sample Recipe Dataset
-
-The dataset contains information about various recipes, including their nutritional content and ratings. Below is a sample of the dataset:
+**Top Hybrid Recommendation**:
 
 | RecipeId | Name         | Calories         | Fat Content       | Protein Content    | Rating             |
 |----------|--------------|------------------|-------------------|--------------------|--------------------|

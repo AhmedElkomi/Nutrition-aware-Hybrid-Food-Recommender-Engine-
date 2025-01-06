@@ -108,7 +108,9 @@ The hybrid recommendations are diverse and nutritionally balanced, as shown in t
 For questions or feedback, please contact:
 
 Ahmed Ashraf Mohamed
+
 Email: ahmed.radwan@gu.edu.eg
+
 GitHub: AhmedElkomi
 
 ---

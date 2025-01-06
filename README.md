@@ -32,6 +32,12 @@ Hybrid Recommendations: [500481, 6536, 444942, 314004, 469399, 9116, 336285, 373
 
 ### Model Evaluation
 The collaborative filtering model (SVD) is evaluated using 3-fold cross-validation. Here are the results:
+                  
+                  Fold 1  Fold 2  Fold 3  Mean    Std     
+RMSE (testset)    1.2280  1.2278  1.2299  1.2286  0.0010  
+Fit time          19.65   20.12   20.20   19.99   0.24    
+Test time         4.54    3.21    3.92    3.89    0.55    
+Cross-Validation RMSE: 1.2285657780442316
 
 ---
 
@@ -73,5 +79,21 @@ The SVD model achieves an RMSE of 1.2286, indicating good predictive accuracy.
 
 The hybrid recommendations are diverse and nutritionally balanced, as shown in the example outputs.
 
+Top Hybrid Recommendation:
++----------+--------------+--------------------+-------------------+---------------------+--------------------+
+| RecipeId |     Name     |      Calories      |    FatContent     |   ProteinContent    |       Rating       |
++----------+--------------+--------------------+-------------------+---------------------+--------------------+
+|   3748   | A-To-Z Bread | 0.5365402544340938 | 0.703536973719064 | -0.5721761988149869 | 4.7727272727272725 |
++----------+--------------+--------------------+-------------------+---------------------+--------------------+
+
 ---
 
+### Contact
+
+For questions or feedback, please contact:
+
+Ahmed Ashraf Mohamed
+Email: ahmed.radwan@gu.edu.eg
+GitHub: AhmedElkomi
+
+---

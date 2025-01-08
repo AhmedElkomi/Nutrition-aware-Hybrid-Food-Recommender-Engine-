@@ -54,11 +54,11 @@ The following datasets were used in this project:
 
 1. **Recipes Dataset**:
    - Contains recipe details such as `RecipeId`, `Name`, `Calories`, `FatContent`, `ProteinContent`, and `RecipeIngredientParts`.
-   - **Download Link**: [Recipes Dataset](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions)
+   - **Download Link**: [Recipes Dataset](https://www.kaggle.com/datasets/irkaal/foodcom-recipes-and-reviews?select=recipes.csv)
 
 2. **Reviews Dataset**:
    - Contains user reviews, including `AuthorId`, `RecipeId`, and `Rating`.
-   - **Download Link**: [Reviews Dataset](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions)
+   - **Download Link**: [Reviews Dataset]((https://www.kaggle.com/datasets/irkaal/foodcom-recipes-and-reviews?select=reviews.csv))
 
 ---
 
